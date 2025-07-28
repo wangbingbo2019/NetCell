@@ -1,10 +1,7 @@
 # NetCell
 
-NetCell is a network-based approach for pinpointing cell populations associated with traits at single-cell resolution.
+The Supplementary Table contains supplementary table S1 and S2.  
+## Description
+**Supplementary Table S1** details the number of candidate genes per trait, with an average of 181 genes per trait.  
+ **Supplementary Table S2.** The Tabula Sapiens project employed two single-cellRNA sequencing (scRNA-seq) technologies, droplet microfluidics and flow cytometry sorting, to generate a comprehensive, high-resolution transcriptomic atlas of 483,152 cells across 24 human tissues and organs from 15 individuals. Using the OnClass tool, the researchers performed a unified annotation of cell types, successfully identifying 474 distinct cell populations. 
 
-<img width="3975" height="2379" alt="fig1" src="https://github.com/user-attachments/assets/a7718d0b-05c2-4588-aa87-852a3562a9cd" />
-
-### Usage
-1. Run `code/01_lcczscore_singleCell_CoreandPeri.ipynb` to obtain each single cell's CTAI.
-
-2. Run `code/02_trait-cells-in-tissues-CoreandPeri.ipynb` to obtain cell groups' GTAI.
